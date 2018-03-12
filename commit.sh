@@ -5,15 +5,16 @@ FILE=testfile
 if [ -f "$FILE" ]; then
 
 	rm "$FILE"
-	git add .
-	git commit -m "RM $FILE"
+	MSG="RM $FILE"
 
 else
 
-	date +%s | sha256sum | base64 | head -c 32 ; echo > "$FILE"
-	git add .
-	git commit -m "ADD $FILE"
+	printf "RAND = " > "$FILE"
+	openssl rand -hex 32 >> "$FILE"
+	MSG="ADD $FILE"
 
 fi
 
+git add .
+git commit -m "$MSG"
 git push origin `git rev-parse --abbrev-ref HEAD`
