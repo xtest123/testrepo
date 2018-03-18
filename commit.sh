@@ -15,6 +15,7 @@ else
 
 fi
 
-git add .
+git add -A
 git commit -m "$MSG"
 git push origin `git rev-parse --abbrev-ref HEAD`
+printf "\n$MSG\n\n"
