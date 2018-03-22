@@ -1,11 +1,30 @@
-folder1/* @skateman
-#comment
-file.rb @tumido
-.rb @romanblanco @skateman
+# comment
+
+
+# empty lines
 
 
 
 
-#comment
+
+
+
+
+
+
+
+
+# global
+*    	   	  @europ       		        
+
+folder_a/ @tumido @romanblanco
+
+*.rb @skateman
+
+
+
+
+
+
 
 
