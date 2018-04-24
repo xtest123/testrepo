@@ -1,8 +1,8 @@
-while a < 15
-	(
-print a, " "
-    if a == 10 then
-        prin"made it to ten!!"
-
-    a = a + 1
-end
+    whi le  a  <  15   
+	(  
+ p ri nt  a,  "  "  
+       if a ==  10  then 
+         prin "ma de  it  to  te  n!! "  
+   
+      a   = a  +  1 
+  end 
