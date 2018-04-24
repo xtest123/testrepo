@@ -1,10 +1,8 @@
-   asd if a == 10 then
-    a = a + 1
-asda
-CONFLIIIIIIIIIIIIICT a < 15
+while a < 15
 	(
-end
 print a, " "
-     asd   prin"made it to tx
+    if a == 10 then
+        prin"made it to ten!!"
 
-     en!! CONFLIIIIIIIIIIIIICT"
+    a = a + 1
+end
